@@ -1,0 +1,72 @@
+# ==================================
+# ✅ React Native + Expo .gitignore
+# ==================================
+
+# Node dependencies
+node_modules/
+
+# Logs and debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Output build artifacts
+android/app/build/
+ios/Pods/
+*.apk
+*.apks
+*.aab
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Metro bundler cache
+.metro-cache/
+.metro-health-check*
+
+# macOS files
+.DS_Store
+
+# OS generated files
+*.orig.*
+*.lock
+*.pem
+*.p8
+*.p12
+*.key
+*.jks
+*.mobileprovision
+
+# Kotlin/Java build
+*.iml
+.gradle/
+.idea/
+build/
+app/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+*.iws
+*.ipr
+*.bak
+*.swp
+
+# Others
+coverage/
+tmp/
+temp/
